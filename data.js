@@ -1,7 +1,7 @@
 const planData = [
     {
         "semana": 1,
-        "mes": "Enero",
+        "mes": "01 - Enero",
         "tema": "Contenido de la semana 1",
         "fecha": "Semana 1",
         "redes": [
@@ -37,7 +37,7 @@ const planData = [
     },
     {
         "semana": 2,
-        "mes": "Enero",
+        "mes": "01 - Enero",
         "tema": "Contenido de la semana 2",
         "fecha": "Semana 2",
         "redes": [
@@ -73,7 +73,7 @@ const planData = [
     },
     {
         "semana": 3,
-        "mes": "Enero",
+        "mes": "01 - Enero",
         "tema": "Contenido de la semana 3",
         "fecha": "Semana 3",
         "redes": [
@@ -109,7 +109,7 @@ const planData = [
     },
     {
         "semana": 4,
-        "mes": "Enero",
+        "mes": "01 - Enero",
         "tema": "Contenido de la semana 4",
         "fecha": "Semana 4",
         "redes": [
@@ -145,7 +145,7 @@ const planData = [
     },
     {
         "semana": 5,
-        "mes": "Febrero",
+        "mes": "02 - Febrero",
         "tema": "Contenido de la semana 5",
         "fecha": "Semana 5",
         "redes": [
@@ -181,7 +181,7 @@ const planData = [
     },
     {
         "semana": 6,
-        "mes": "Febrero",
+        "mes": "02 - Febrero",
         "tema": "Contenido de la semana 6",
         "fecha": "Semana 6",
         "redes": [
@@ -217,7 +217,7 @@ const planData = [
     },
     {
         "semana": 7,
-        "mes": "Febrero",
+        "mes": "02 - Febrero",
         "tema": "Contenido de la semana 7",
         "fecha": "Semana 7",
         "redes": [
@@ -253,7 +253,7 @@ const planData = [
     },
     {
         "semana": 8,
-        "mes": "Febrero",
+        "mes": "02 - Febrero",
         "tema": "Contenido de la semana 8",
         "fecha": "Semana 8",
         "redes": [
@@ -289,7 +289,7 @@ const planData = [
     },
     {
         "semana": 9,
-        "mes": "Marzo",
+        "mes": "03 - Marzo",
         "tema": "Contenido de la semana 9",
         "fecha": "Semana 9",
         "redes": [
@@ -325,7 +325,7 @@ const planData = [
     },
     {
         "semana": 10,
-        "mes": "Marzo",
+        "mes": "03 - Marzo",
         "tema": "Contenido de la semana 10",
         "fecha": "Semana 10",
         "redes": [
@@ -361,7 +361,7 @@ const planData = [
     },
     {
         "semana": 11,
-        "mes": "Marzo",
+        "mes": "03 - Marzo",
         "tema": "Contenido de la semana 11",
         "fecha": "Semana 11",
         "redes": [
@@ -397,7 +397,7 @@ const planData = [
     },
     {
         "semana": 12,
-        "mes": "Marzo",
+        "mes": "03 - Marzo",
         "tema": "Contenido de la semana 12",
         "fecha": "Semana 12",
         "redes": [
@@ -433,7 +433,7 @@ const planData = [
     },
     {
         "semana": 13,
-        "mes": "Abril",
+        "mes": "04 - Abril",
         "tema": "Contenido de la semana 13",
         "fecha": "Semana 13",
         "redes": [
@@ -469,7 +469,7 @@ const planData = [
     },
     {
         "semana": 14,
-        "mes": "Abril",
+        "mes": "04 - Abril",
         "tema": "Contenido de la semana 14",
         "fecha": "Semana 14",
         "redes": [
@@ -505,7 +505,7 @@ const planData = [
     },
     {
         "semana": 15,
-        "mes": "Abril",
+        "mes": "04 - Abril",
         "tema": "Contenido de la semana 15",
         "fecha": "Semana 15",
         "redes": [
@@ -541,7 +541,7 @@ const planData = [
     },
     {
         "semana": 16,
-        "mes": "Abril",
+        "mes": "04 - Abril",
         "tema": "Contenido de la semana 16",
         "fecha": "Semana 16",
         "redes": [
@@ -577,7 +577,7 @@ const planData = [
     },
     {
         "semana": 17,
-        "mes": "Mayo",
+        "mes": "05 - Mayo",
         "tema": "Contenido de la semana 17",
         "fecha": "Semana 17",
         "redes": [
@@ -613,7 +613,7 @@ const planData = [
     },
     {
         "semana": 18,
-        "mes": "Mayo",
+        "mes": "05 - Mayo",
         "tema": "Contenido de la semana 18",
         "fecha": "Semana 18",
         "redes": [
@@ -649,7 +649,7 @@ const planData = [
     },
     {
         "semana": 19,
-        "mes": "Mayo",
+        "mes": "05 - Mayo",
         "tema": "Contenido de la semana 19",
         "fecha": "Semana 19",
         "redes": [
@@ -685,7 +685,7 @@ const planData = [
     },
     {
         "semana": 20,
-        "mes": "Mayo",
+        "mes": "05 - Mayo",
         "tema": "Contenido de la semana 20",
         "fecha": "Semana 20",
         "redes": [
@@ -721,7 +721,7 @@ const planData = [
     },
     {
         "semana": 21,
-        "mes": "Junio",
+        "mes": "06 - Junio",
         "tema": "Contenido de la semana 21",
         "fecha": "Semana 21",
         "redes": [
@@ -757,7 +757,7 @@ const planData = [
     },
     {
         "semana": 22,
-        "mes": "Junio",
+        "mes": "06 - Junio",
         "tema": "Contenido de la semana 22",
         "fecha": "Semana 22",
         "redes": [
@@ -793,7 +793,7 @@ const planData = [
     },
     {
         "semana": 23,
-        "mes": "Junio",
+        "mes": "06 - Junio",
         "tema": "Contenido de la semana 23",
         "fecha": "Semana 23",
         "redes": [
@@ -829,7 +829,7 @@ const planData = [
     },
     {
         "semana": 24,
-        "mes": "Junio",
+        "mes": "06 - Junio",
         "tema": "Contenido de la semana 24",
         "fecha": "Semana 24",
         "redes": [
@@ -865,7 +865,7 @@ const planData = [
     },
     {
         "semana": 25,
-        "mes": "Julio",
+        "mes": "07 - Julio",
         "tema": "Contenido de la semana 25",
         "fecha": "Semana 25",
         "redes": [
@@ -901,7 +901,7 @@ const planData = [
     },
     {
         "semana": 26,
-        "mes": "Julio",
+        "mes": "07 - Julio",
         "tema": "Contenido de la semana 26",
         "fecha": "Semana 26",
         "redes": [
@@ -937,7 +937,7 @@ const planData = [
     },
     {
         "semana": 27,
-        "mes": "Julio",
+        "mes": "07 - Julio",
         "tema": "Contenido de la semana 27",
         "fecha": "Semana 27",
         "redes": [
@@ -973,7 +973,7 @@ const planData = [
     },
     {
         "semana": 28,
-        "mes": "Julio",
+        "mes": "07 - Julio",
         "tema": "Contenido de la semana 28",
         "fecha": "Semana 28",
         "redes": [
@@ -1009,7 +1009,7 @@ const planData = [
     },
     {
         "semana": 29,
-        "mes": "Agosto",
+        "mes": "08 - Agosto",
         "tema": "Contenido de la semana 29",
         "fecha": "Semana 29",
         "redes": [
@@ -1045,7 +1045,7 @@ const planData = [
     },
     {
         "semana": 30,
-        "mes": "Agosto",
+        "mes": "08 - Agosto",
         "tema": "Contenido de la semana 30",
         "fecha": "Semana 30",
         "redes": [
@@ -1081,7 +1081,7 @@ const planData = [
     },
     {
         "semana": 31,
-        "mes": "Agosto",
+        "mes": "08 - Agosto",
         "tema": "Contenido de la semana 31",
         "fecha": "Semana 31",
         "redes": [
@@ -1117,7 +1117,7 @@ const planData = [
     },
     {
         "semana": 32,
-        "mes": "Agosto",
+        "mes": "08 - Agosto",
         "tema": "Contenido de la semana 32",
         "fecha": "Semana 32",
         "redes": [
@@ -1153,7 +1153,7 @@ const planData = [
     },
     {
         "semana": 33,
-        "mes": "Septiembre",
+        "mes": "09 - Septiembre",
         "tema": "Contenido de la semana 33",
         "fecha": "Semana 33",
         "redes": [
@@ -1189,7 +1189,7 @@ const planData = [
     },
     {
         "semana": 34,
-        "mes": "Septiembre",
+        "mes": "09 - Septiembre",
         "tema": "Contenido de la semana 34",
         "fecha": "Semana 34",
         "redes": [
@@ -1225,7 +1225,7 @@ const planData = [
     },
     {
         "semana": 35,
-        "mes": "Septiembre",
+        "mes": "09 - Septiembre",
         "tema": "Contenido de la semana 35",
         "fecha": "Semana 35",
         "redes": [
@@ -1261,7 +1261,7 @@ const planData = [
     },
     {
         "semana": 36,
-        "mes": "Septiembre",
+        "mes": "09 - Septiembre",
         "tema": "Contenido de la semana 36",
         "fecha": "Semana 36",
         "redes": [
@@ -1297,7 +1297,7 @@ const planData = [
     },
     {
         "semana": 37,
-        "mes": "Octubre",
+        "mes": "10 - Octubre",
         "tema": "Contenido de la semana 37",
         "fecha": "Semana 37",
         "redes": [
@@ -1333,7 +1333,7 @@ const planData = [
     },
     {
         "semana": 38,
-        "mes": "Octubre",
+        "mes": "10 - Octubre",
         "tema": "Contenido de la semana 38",
         "fecha": "Semana 38",
         "redes": [
@@ -1369,7 +1369,7 @@ const planData = [
     },
     {
         "semana": 39,
-        "mes": "Octubre",
+        "mes": "10 - Octubre",
         "tema": "Contenido de la semana 39",
         "fecha": "Semana 39",
         "redes": [
@@ -1405,7 +1405,7 @@ const planData = [
     },
     {
         "semana": 40,
-        "mes": "Octubre",
+        "mes": "10 - Octubre",
         "tema": "Contenido de la semana 40",
         "fecha": "Semana 40",
         "redes": [
@@ -1441,7 +1441,7 @@ const planData = [
     },
     {
         "semana": 41,
-        "mes": "Noviembre",
+        "mes": "11 - Noviembre",
         "tema": "Contenido de la semana 41",
         "fecha": "Semana 41",
         "redes": [
@@ -1477,7 +1477,7 @@ const planData = [
     },
     {
         "semana": 42,
-        "mes": "Noviembre",
+        "mes": "11 - Noviembre",
         "tema": "Contenido de la semana 42",
         "fecha": "Semana 42",
         "redes": [
@@ -1513,7 +1513,7 @@ const planData = [
     },
     {
         "semana": 43,
-        "mes": "Noviembre",
+        "mes": "11 - Noviembre",
         "tema": "Contenido de la semana 43",
         "fecha": "Semana 43",
         "redes": [
@@ -1549,7 +1549,7 @@ const planData = [
     },
     {
         "semana": 44,
-        "mes": "Noviembre",
+        "mes": "11 - Noviembre",
         "tema": "Contenido de la semana 44",
         "fecha": "Semana 44",
         "redes": [
@@ -1585,7 +1585,7 @@ const planData = [
     },
     {
         "semana": 45,
-        "mes": "Diciembre",
+        "mes": "12 - Diciembre",
         "tema": "Contenido de la semana 45",
         "fecha": "Semana 45",
         "redes": [
@@ -1621,7 +1621,7 @@ const planData = [
     },
     {
         "semana": 46,
-        "mes": "Diciembre",
+        "mes": "12 - Diciembre",
         "tema": "Contenido de la semana 46",
         "fecha": "Semana 46",
         "redes": [
@@ -1657,7 +1657,7 @@ const planData = [
     },
     {
         "semana": 47,
-        "mes": "Diciembre",
+        "mes": "12 - Diciembre",
         "tema": "Contenido de la semana 47",
         "fecha": "Semana 47",
         "redes": [
@@ -1693,7 +1693,7 @@ const planData = [
     },
     {
         "semana": 48,
-        "mes": "Diciembre",
+        "mes": "12 - Diciembre",
         "tema": "Contenido de la semana 48",
         "fecha": "Semana 48",
         "redes": [
@@ -1729,7 +1729,7 @@ const planData = [
     },
     {
         "semana": 49,
-        "mes": "Diciembre",
+        "mes": "12 - Diciembre",
         "tema": "Contenido de la semana 49",
         "fecha": "Semana 49",
         "redes": [
@@ -1765,7 +1765,7 @@ const planData = [
     },
     {
         "semana": 50,
-        "mes": "Diciembre",
+        "mes": "12 - Diciembre",
         "tema": "Contenido de la semana 50",
         "fecha": "Semana 50",
         "redes": [
@@ -1801,7 +1801,7 @@ const planData = [
     },
     {
         "semana": 51,
-        "mes": "Diciembre",
+        "mes": "12 - Diciembre",
         "tema": "Contenido de la semana 51",
         "fecha": "Semana 51",
         "redes": [
@@ -1837,7 +1837,7 @@ const planData = [
     },
     {
         "semana": 52,
-        "mes": "Diciembre",
+        "mes": "12 - Diciembre",
         "tema": "Contenido de la semana 52",
         "fecha": "Semana 52",
         "redes": [
