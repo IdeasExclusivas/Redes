@@ -24,7 +24,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 1 - Jueves 7 de enero: El año que empieza en el corazón<br><br>Título: Jesús no te pide una lista perfecta, te pide un corazón dispuesto.<br><br>Cuerpo: En el barrio siempre vemos a la gente comprando agendas nuevas y prometiendo cambiar de vida. Pero a mitad de mes, el cansancio vuelve. Jesús cuando llamó a los pescadores en la orilla del lago no les pidió experiencia previa ni hojas de vida intachables: les dijo \"Síganme\". El nuevo comienzo que ofrece el Maestro no depende del calendario, sino de la decisión de caminar con Él cada día, aun tropezando. En nuestra parroquia digital queremos que este 2027 no lo camines solo.<br><br>Llamado a la acción (CTA): Comenta aquí abajo: ¿Cuál es esa carga del año pasado que estás decidido a entregarle a Dios este mes? Oramos comunitariamente por tu intención."
+                "contenido": "Semana 1 - Miércoles 6 de enero Gancho: ¿Sabes por qué tus propósitos fracasan en febrero? Desarrollo: Quieres poner vino nuevo en odres viejos. Cambiar el exterior sin soltar la maleta de rencores. Jesús decía: \"Levántate\". Él te limpia por dentro. Reto: #RetoJesúsMaestro: Bota un objeto físico que te traiga un mal recuerdo.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -60,7 +60,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 2 - Jueves 14 de enero: La plaza y la vocación de servicio<br><br>Título: Menos metas egoístas, más manos para el barrio.<br><br>Cuerpo: A Jesús nunca lo encontraron encerrado planificando cómo acumular riquezas. Se le encontraba en las calles polvorientas, en los mercados, donde la gente real vivía sus dolores. Si tus metas de este año solo se tratan de ti mismo, te vas a sentir vacío muy pronto. Cuando le abres espacio al servicio comunal, la vida toma un sabor distinto. La fe se convierte en amor tangible cuando miras la necesidad de tu vecino.<br><br>Llamado a la acción (CTA): Cuéntanos: ¿Qué iniciativa solidaria te gustaría que impulsemos juntos este año desde nuestra comunidad parroquial? Te leemos."
+                "contenido": "Semana 2 - Miércoles 13 de enero Gancho: Estás viviendo en piloto automático. Desarrollo: Trabajar, scrollear y dormir. Jesús nunca vivió a la deriva; vino a servir. Si no tienes propósito de servicio, te quemarás. Reto: #RetoJesúsMaestro: Añade una meta 100% de servicio a otros a tu año.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -96,7 +96,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 3 - Jueves 21 de enero: El ropero solidario de la parroquia<br><br>Título: Desocupar el clóset para abrigar al hermano.<br><br>Cuerpo: Jesús dijo: \"El que tenga dos túnicas, dé una al que no tiene\". Guardamos ropa en perfecto estado por años esperando \"una ocasión especial\", mientras en las esquinas de nuestras ciudades hay familias pasando frío. El desapego material no es perder, es hacer circular la providencia de Dios. Esta semana abrimos nuestro marketplace solidario parroquial.<br><br>Llamado a la acción (CTA): Si tienes ropa en buen estado que ya no usas, déjanos un mensaje interno o escribe \"APOYO\" en los comentarios para coordinar puntos de entrega para las familias vulnerables de la comunidad."
+                "contenido": "Semana 3 - Miércoles 20 de enero Gancho: Te reto a soltar el celular por tu paz. Desarrollo: Acumulamos ropa, chats, estrés. Jesús dijo: \"Vayan sin mochila\". La paz empieza necesitando menos. Reto: #RetoJesúsMaestro: Saca 3 prendas que no usas y dónalas.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -132,7 +132,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 4 - Jueves 28 de enero: Paciencia con los tropiezos del camino<br><br>Título: Pedro se hundió en el agua y Jesús le extendió la mano.<br><br>Cuerpo: Ya se acaba el primer mes del año. Tal vez rompiste tus propósitos o sentiste que volviste a caer en viejos hábitos. La mirada de Jesús nunca es de juicio o burla como la de las redes sociales. Cuando Pedro tuvo miedo y se hundió, Jesús no le gritó desde la orilla; metió la mano al agua y lo levantó. Tu comunidad parroquial está aquí para recordarte que Dios siempre te da una segunda oportunidad.<br><br>Llamado a la acción (CTA): Escribe en los comentarios una palabra de aliento para alguien que hoy sienta que empezó el año con dificultades. Seamos una red de apoyo mutuo.<br><br>FEBRERO: El Jesús de las relaciones humanas y la familia"
+                "contenido": "Semana 4 - Miércoles 27 de enero Gancho: Deja de castigarte por ese error. Desarrollo: Pedro negó a Jesús, pero Él no lo canceló en público; le hizo el desayuno. Dios no te define por tu peor error. Reto: #RetoJesúsMaestro: Prohibido decirte \"soy un desastre\".<br><br>FEBRERO: Relaciones"
             },
             {
                 "nombre": "Facebook",
@@ -168,7 +168,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 5 - Jueves 4 de febrero: Amigos de verdad, no de pantalla<br><br>Título: El hogar de Betania: donde Jesús iba a ser Él mismo.<br><br>Cuerpo: Jesús tenía amigos de verdad: Marta, María y Lázaro. En esa casa no había poses ni discursos solemnes; había comida caliente, conversaciones largas y descanso. En esta era digital acumulamos cientos de contactos en redes, pero nos sentimos profundamente solos en la sala. Necesitamos reconstruir la amistad sincera, la que visita cuando hay enfermedad y celebra cuando hay buenas noticias.<br><br>Llamado a la acción (CTA): Etiqueta en esta publicación a ese amigo incondicional que Dios te regaló y dile: \"Gracias por estar en las buenas y en las malas\"."
+                "contenido": "Semana 5 - Miércoles 3 de febrero Gancho: Tienes mil seguidores, ¿quién te visita si te enfermas? Desarrollo: Las redes nos robaron amigos reales. A Jesús le encantaba visitar la casa de Lázaro. Reto: #RetoJesúsMaestro: Llama a un amigo viejo solo para saludar.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -204,7 +204,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 6 - Jueves 11 de febrero: La convivencia en el hogar<br><br>Título: La santidad se cocina en la estufa de la casa.<br><br>Cuerpo: Muchas veces queremos ser santos en el templo, pero somos difíciles de aguantar en la casa. Jesús vivió tres décadas en Nazaret aprendiendo el oficio de José y conviviendo bajo el mismo techo. Ahí, entre lavar platos, barrer el piso y compartir el espacio reducido, es donde el Evangelio se pone a prueba. El amor cristiano empieza por hablar suavemente a los nuestros cuando el día estuvo pesado.<br><br>Llamado a la acción (CTA): ¿Cuál es el mayor reto para mantener la paz y la paciencia en tu hogar? Conversemos en los comentarios con respeto y empatía."
+                "contenido": "Semana 6 - Miércoles 10 de febrero Gancho: Eres luz en la calle, pero oscuridad en casa. Desarrollo: Amables con extraños, pero gritamos a mamá. Jesús vivió 30 años en familia aprendiendo paciencia. Reto: #RetoJesúsMaestro: 24 horas cero quejas y gritos en tu casa.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -240,7 +240,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 7 - Jueves 18 de febrero: Desconectar para conectar<br><br>Título: Mirar a los ojos: la ternura que se perdió entre pantallas.<br><br>Cuerpo: En cualquier panadería o restaurante de barrio se ve la misma escena: familias enteras sentadas juntas, pero cada una mirando fijamente su celular. Jesús nunca habló con alguien mirando hacia otro lado; Él se detenía, miraba fijamente y tocaba con compasión. Recuperar la dignidad de nuestras relaciones exige la valentía de apagar las pantallas para mirarnos el rostro y escucharnos el corazón.<br><br>Llamado a la acción (CTA): Comparte esta publicación con tu familia y propongan un pacto: cenar esta noche sin celulares sobre la mesa. ¿Quién se le mide al reto?"
+                "contenido": "Semana 7 - Miércoles 17 de febrero Gancho: El celular roba a quienes amas. Desarrollo: Jesús no hablaba con ciegos mirando su teléfono. Su superpoder era la atención total. Reto: #RetoJesúsMaestro: Próxima comida familiar, celular en otro cuarto.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -276,7 +276,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 8 - Jueves 25 de febrero: Cuidar la honra del vecino<br><br>Título: Corregir con caridad: salvar al hermano, no hundirlo.<br><br>Cuerpo: Es fácil armar corrillos en el barrio o cadenas de mensajes para hablar mal de quien cometió una falta. Jesús nos dio una regla de oro: si tu hermano falla, ve a solas y habla con él. Cuidar la honra de los demás es un acto supremo de amor. La corrección cristiana no busca humillar ni ganar discusiones; busca restaurar y abrazar al que cayó.<br><br>Llamado a la acción (CTA): Escribe \"AMÉN\" si te comprometes esta semana a no participar de ningún chisme o crítica sobre tus vecinos o compañeros.<br><br>MARZO: El Jesús del desierto, Cuaresma y preparación"
+                "contenido": "Semana 8 - Miércoles 24 de febrero Gancho: ¿Humillas en público para sentirte superior? Desarrollo: Jesús dijo: \"Si tu hermano se equivoca, háblale a solas\". Protege la dignidad. Reto: #RetoJesúsMaestro: Haz reclamos totalmente en privado.<br><br>MARZO: Cuaresma"
             },
             {
                 "nombre": "Facebook",
@@ -312,7 +312,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 9 - Jueves 4 de marzo: El valor de parar el ruido<br><br>Título: Dios habla en el susurro, no en el escándalo.<br><br>Cuerpo: Comenzamos el camino de la Cuaresma. Vivimos aturdidos por el perifoneo de la calle, los noticieros alarmistas y las notificaciones constantes. Cuando Jesús se preparaba para las decisiones más importantes de su vida, se retiraba al desierto en silencio. El desierto no es un castigo, es un espacio necesario para ordenar los afectos y reencontrarse con lo esencial.<br><br>Llamado a la acción (CTA): ¿En qué momento del día logras hacer 5 minutos de silencio para orar? Cuéntanos tu rutina en los comentarios."
+                "contenido": "Semana 9 - Miércoles 3 de marzo Gancho: Eres adicto al ruido, te asusta el silencio. Desarrollo: Jesús se iba de madrugada al desierto en silencio. Ahí Dios habla. Reto: #RetoJesúsMaestro: Apaga el radio en tu próximo viaje en bus.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -348,7 +348,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 10 - Jueves 11 de marzo: El ayuno solidario del barrio<br><br>Título: El ayuno que a Dios le agrada es compartir el pan.<br><br>Cuerpo: El profeta Isaías lo dejó muy claro y Jesús lo confirmó con su vida: de nada sirve aguantar hambre si se maltrata al empleado o se ignora al necesitado. El verdadero ayuno cristiano consiste en privarse de un gusto para dárselo a quien no tiene nada. Que lo que ahorres dejando de comprar cosas superfluas se transforme en un mercado para una familia del sector.<br><br>Llamado a la acción (CTA): Campaña \"Kilo de Amor\": Estaremos recolectando granos no perecederos (arroz, fríjol, lentejas) esta semana. Escríbenos por inbox para sumarte a la entrega."
+                "contenido": "Semana 10 - Miércoles 10 de marzo Gancho: El ayuno de comida no sirve si te comes al prójimo. Desarrollo: Dejan la carne, pero destilan veneno en el trabajo. El ayuno real rompe el egoísmo. Reto: #RetoJesúsMaestro: Ayuna de redes una hora antes de dormir.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -384,7 +384,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 11 - Jueves 18 de marzo: Palabras que construyen puentes<br><br>Título: De la abundancia del corazón habla la boca.<br><br>Cuerpo: En nuestras comunidades locales a veces las rencillas vecinales destruyen la paz de años: un reclamo a los gritos, una mala mirada, un insulto en el grupo de copropietarios. Jesús enseñó que las palabras revelan lo que tenemos por dentro. Si dejamos que el Maestro habite nuestro interior, las palabras que saldrán de nosotros serán bálsamo, prudencia y bendición.<br><br>Llamado a la acción (CTA): Deja en los comentarios un mensaje de gratitud hacia alguien de tu comunidad que siempre hable con amabilidad y respeto."
+                "contenido": "Semana 11 - Miércoles 17 de marzo Gancho: Tus palabras pueden matar. Desarrollo: Lo que contamina sale de la boca. Críticas o chismes destruyen. Reto: #RetoJesúsMaestro: Ayuno de críticas absolutas hoy.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -420,7 +420,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 12 - Jueves 25 de marzo: Acompañar en Getsemaní<br><br>Título: No dejes solo al que está pasando su noche oscura.<br><br>Cuerpo: En el huerto de los Olivos, Jesús experimentó la angustia y les pidió a sus amigos más cercanos: \"Quédense aquí y velen conmigo\". Tristemente, se quedaron dormidos. Cuántas personas en nuestro barrio están pasando por su propio Getsemaní: una quiebra económica, un diagnóstico médico difícil o una depresión profunda. La parroquia digital existe para velar juntos y sostener la esperanza.<br><br>Llamado a la acción (CTA): Si hoy estás atravesando un momento de dolor o tristeza, déjanos tu nombre o intención en los comentarios. Esta comunidad orará por ti toda la noche.<br><br>ABRIL: Resurrección, esperanza y vida comunitaria"
+                "contenido": "Semana 12 - Miércoles 24 de marzo Gancho: La fe es saber a quién acudir cuando tiemblas. Desarrollo: Jesús sudó sangre en Getsemaní. No ocultó su crisis, se la entregó a Dios. Reto: #RetoJesúsMaestro: Cuando sientas ansiedad repite \"Señor, en ti confío\".<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -456,7 +456,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 13 - Jueves 1 de abril: Lavatorio de pies (Jueves Santo)<br><br>Título: La grandeza de inclinarse ante el que sirve.<br><br>Cuerpo: Hoy Jesús se quitó el manto, tomó una toalla y se arrodilló a lavar los pies polvorientos de sus discípulos. El Dios del universo prefirió la postura del esclavo para enseñarnos cómo se ama de verdad. En una sociedad obsesionada con mandar y tener privilegios, los cristianos estamos llamados a competir únicamente en ver quién sirve primero y con mayor alegría.<br><br>Llamado a la acción (CTA): Hoy, ten un gesto concreto de servicio en tu casa: sirve tú la cena, lava los platos o haz la tarea más pesada sin que te lo pidan."
+                "contenido": "Semana 13 - Miércoles 31 de marzo Gancho: Nos vendieron que el amor son mariposas. Falso. Desarrollo: El amor real duele y es sacrificio, como Jesús en la cruz. Reto: #RetoJesúsMaestro: Renuncia a un gusto tuyo hoy y usa el dinero para ayudar.<br><br>ABRIL: Resurrección"
             },
             {
                 "nombre": "Facebook",
@@ -492,7 +492,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 14 - Jueves 8 de abril: La tumba vacía en medio de nuestros duelos<br><br>Título: ¡Cristo ha resucitado y la muerte no tiene la última palabra!<br><br>Cuerpo: Celebramos la Pascua en nuestra comunidad. La resurrección no es una fábula antigua; es la certeza viva de que ningún dolor, ninguna enfermedad y ninguna crisis económica es definitiva. Jesús venció la oscuridad para encender una luz en cada hogar atribulado. Si Cristo salió victorioso del sepulcro, Él tiene poder para levantar tus proyectos caídos y sanar tus heridas.<br><br>Llamado a la acción (CTA): Escribe con fe en los comentarios: \"¡Mi Redentor vive!\" y comparte esta bendición en tu muro de Facebook."
+                "contenido": "Semana 14 - Miércoles 7 de abril Gancho: ¿Cuántas oportunidades pierdes por miedo? Desarrollo: Lo primero de Jesús resucitado: \"No tengan miedo\". Venció a la muerte para liberarnos. Reto: #RetoJesúsMaestro: Enfrenta hoy esa conversación difícil.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -528,7 +528,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 15 - Jueves 15 de abril: El desayuno en la playa<br><br>Título: El perdón que cura el alma antes de hacer reclamos.<br><br>Cuerpo: Nos encanta recordar las fallas de los demás y cobrar venganza. Pero cuando Jesús resucitó y se encontró con Pedro a orillas del mar de Galilea, tenía pescado asado sobre las brasas y pan listo. No hubo reproches ni sermones de humillación. Hubo comida compartida y una pregunta de amor: \"¿Me amas?\". Así restaura Dios a las personas. Seamos comunidades que perdonan y dan de comer.<br><br>Llamado a la acción (CTA): ¿Hay alguien en tu familia con quien llevas tiempo sin hablar por una ofensa? Da el primer paso hoy con una llamada de reconciliación."
+                "contenido": "Semana 15 - Miércoles 14 de abril Gancho: Dios te perdonó, ¿tú por qué no? Desarrollo: Te castigas por errores pasados. Jesús resucitado buscó a quienes lo abandonaron para dar paz. Reto: #RetoJesúsMaestro: Di en voz alta: \"Dios hace nuevas todas las cosas\".<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -564,7 +564,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 16 - Jueves 22 de abril: La fe que se contagia con alegría<br><br>Título: Un barrio alegre es reflejo del Evangelio vivido.<br><br>Cuerpo: El papa Francisco nos recordaba constantemente que los cristianos no podemos tener cara de funeral. Si anunciamos que Jesús venció la muerte, nuestra vida cotidiana debe reflejar esperanza. En la tienda, en el transporte público, en las asambleas del barrio: que la gente note que los seguidores de Jesús son personas agradecidas, respetuosas y llenas de gozo interior.<br><br>Llamado a la acción (CTA): Comparte en los comentarios: ¿Cuál es ese motivo sencillo de tu vida cotidiana que hoy te llena el corazón de profunda alegría?"
+                "contenido": "Semana 16 - Miércoles 21 de abril Gancho: Cristiano amargado, mala publicidad. Desarrollo: La alegría es fruto del Espíritu. Tu sonrisa en el estrés prueba tu fe. Reto: #RetoJesúsMaestro: Sonríe a todos hoy, aunque no te devuelvan el saludo.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -600,7 +600,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 17 - Jueves 29 de abril: Emaús: Caminar juntos al regreso a casa<br><br>Título: Reconocer a Dios en el pan partido sobre la mesa.<br><br>Cuerpo: Dos discípulos caminaban tristes hacia su pueblo, pensando que todo había terminado en fracaso. Jesús se les acercó como un caminante cualquiera, los escuchó con paciencia y les explicó las Escrituras. Pero fue al partir el pan en la mesa comunitaria donde sus ojos se abrieron. La parroquia digital es ese camino donde Jesús camina a nuestro lado en medio de nuestras dudas y desánimos.<br><br>Llamado a la acción (CTA): Participa en nuestra transmisión comunitaria de este fin de semana. Comenta desde qué ciudad o barrio te conectas con Jesús Maestro.<br><br>MAYO: Ternura, cuidado maternal y honrar las raíces"
+                "contenido": "Semana 17 - Miércoles 28 de abril Gancho: Esperas milagros gigantes, pierdes los diarios. Desarrollo: En Emaús, reconocieron a Jesús al partir el pan. Lo sagrado está en la rutina. Reto: #RetoJesúsMaestro: Pausa 5 segundos y agradece antes de comer.<br><br>MAYO: Cuidado"
             },
             {
                 "nombre": "Facebook",
@@ -636,7 +636,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 18 - Jueves 6 de mayo: El corazón de las madres de nuestra comunidad<br><br>Título: María al pie de la cruz: la fortaleza inquebrantable del amor.<br><br>Cuerpo: En nuestras familias colombianas, las madres y abuelas han sido los pilares que sostienen la fe en medio de las tempestades. Ellas madrugan, trabajan sin descanso y son las primeras en arrodillarse a orar por los hijos. Jesús desde la cruz nos entregó a su propia Madre para que nunca nos faltara ternura y cobijo. Honrar a las madres no es cosa de un solo domingo comercial; es cuidarlas y valorarlas todos los días.<br><br>Llamado a la acción (CTA): Escribe el nombre de tu mamá o de esa figura materna que te enseñó a orar. Nos uniremos como parroquia para bendecir sus vidas en nuestra misa comunitaria."
+                "contenido": "Semana 18 - Miércoles 5 de mayo Gancho: ¿Ser tierno es ser débil? Falso. Desarrollo: Requiere fuerza. Jesús era tierno con los que sufrían. Reto: #RetoJesúsMaestro: Ten un detalle de ternura con tu mamá hoy.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -672,7 +672,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 19 - Jueves 13 de mayo: Proteger la inocencia de los niños<br><br>Título: Dejen que los niños vengan a mí: el deber sagrado de cuidarlos.<br><br>Cuerpo: En un mundo acelerado que muchas veces les roba la niñez con pantallas, descuido o violencia, la advertencia de Jesús es tajante: quien dañe o haga tropezar a uno de estos pequeños, más le valdría que le colgaran una piedra de molino al cuello. En nuestros barrios, los niños deben encontrar espacios seguros, llenos de respeto, juego sano y cariño sincero. Cuidar a la infancia es cuidar el Reino de Dios.<br><br>Llamado a la acción (CTA): ¿Qué acciones concretas podemos hacer en nuestro entorno para que los niños de la comunidad crezcan sintiéndose amados y protegidos? Déjanos tu aporte."
+                "contenido": "Semana 19 - Miércoles 12 de mayo Gancho: Dar el celular al niño para que no moleste. Error. Desarrollo: Jesús dijo: \"Dejen que vengan a mí\". Jugar te devuelve el asombro. Reto: #RetoJesúsMaestro: Juega 15 min con un niño sin pantallas.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -708,7 +708,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 20 - Jueves 20 de mayo: La memoria viva de los abuelos<br><br>Título: Canas llenas de sabiduría: no abandonemos a los mayores.<br><br>Cuerpo: En la sociedad del consumo, lo que ya no produce se descarta. Qué dolor ver ancianos abandonados en habitaciones traseras o en asilos sin recibir una sola visita al mes. Jesús nos enseñó que la grandeza se mide en cómo tratamos a los más frágiles. Los abuelos son la memoria viva de nuestra fe y los que rezaron por nosotros cuando éramos pequeños. Devolverles amor y tiempo es un mandato divino.<br><br>Llamado a la acción (CTA): Visita este fin de semana a un anciano de tu familia o vecindario. Llévale un detalle caliente y escúchalo. Comenta \"CUIDAR\" si te unes a esta causa."
+                "contenido": "Semana 20 - Miércoles 19 de mayo Gancho: Ignorar abuelos, destruir el futuro. Desarrollo: Jesús lavó los pies. El servicio al frágil es grandeza. Reto: #RetoJesúsMaestro: Habla con un adulto mayor sin mirar el reloj.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -744,7 +744,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 21 - Jueves 27 de mayo: La ofrenda generosa de la viuda pobre<br><br>Título: Los ojos de Jesús ven lo que los demás ignoran.<br><br>Cuerpo: En el templo, los ricos echaban grandes cantidades para ser vistos por todos. Pero Jesús puso su mirada en una viuda pobre que dejó caer dos moneditas insignificantes: todo lo que tenía para vivir. En nuestra comunidad parroquial valoramos el aporte callado de la gente humilde: la señora que barre el templo, el señor que repara una banca en silencio, quien comparte media panela con su vecino. Dios no mira la cantidad, mira el corazón.<br><br>Llamado a la acción (CTA): Demos gracias hoy por todos los colaboradores silenciosos de nuestra parroquia digital. Déjales un mensaje de bendición en este post.<br><br>JUNIO: El Jesús del trabajo diario y el sudor de la frente"
+                "contenido": "Semana 21 - Miércoles 26 de mayo Gancho: ¿Cómo se llama quien limpia tu universidad? Desarrollo: Jesús veía a los que la sociedad ignoraba. Reto: #RetoJesúsMaestro: Saluda por su nombre a la persona de aseo.<br><br>JUNIO: Trabajo"
             },
             {
                 "nombre": "Facebook",
@@ -780,7 +780,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 22 - Jueves 3 de junio: El taller de Nazaret<br><br>Título: Jesús el carpintero: el sudor que santifica la vida.<br><br>Cuerpo: Antes de hacer milagros públicos, Jesús pasó la mayor parte de su vida adulta trabajando la madera, lidiando con clavos, cepillando tablones y atendiendo a los vecinos del pueblo. Ningún trabajo honesto es insignificante a los ojos de Dios. El obrero en la construcción, la modista en el taller, la persona que atiende la tienda de barrio: en cada tarea hecha con rectitud y amor, Jesús está presente construyendo su Reino.<br><br>Llamado a la acción (CTA): Escribe en los comentarios a qué te dedicas y en qué trabajas. Ponemos hoy en oración el trabajo y sustento de cada miembro de nuestra parroquia."
+                "contenido": "Semana 22 - Miércoles 2 de junio Gancho: Odias tu trabajo, pero Dios te puso ahí. Desarrollo: Jesús fue carpintero. Tu oficina es altar si trabajas con amor. Reto: #RetoJesúsMaestro: Haz tu tarea aburrida con excelencia suprema.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -816,7 +816,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 23 - Jueves 10 de junio: La barca y el estrés de las deudas<br><br>Título: Maestro, ¿no te importa que nos hundamos?<br><br>Cuerpo: Muchas familias de nuestra comunidad viven ahogadas por la preocupación de las deudas, el arriendo que se vence o la falta de empleo. El grito de los discípulos en medio de la tempestad es el mismo grito de angustia que sale de nuestros hogares. Jesús se levantó y mandó callar los vientos. Dios no es indiferente a tus necesidades materiales; confía, sigue remando con honradez y Él abrirá caminos donde no los hay.<br><br>Llamado a la acción (CTA): Si estás desempleado o buscando mejorar tus ingresos, comenta \"TRABAJO\". La comunidad orará por ti y pondremos en marcha una red de empleo local."
+                "contenido": "Semana 23 - Miércoles 9 de junio Gancho: Al borde del colapso por estrés. Desarrollo: Jesús dormía en la tormenta por confianza. Haz tu esfuerzo, deja a Dios los resultados. Reto: #RetoJesúsMaestro: Pausa 1 minuto hoy para respirar.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -852,7 +852,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 24 - Jueves 17 de junio: El valor del compañerismo honesto<br><br>Título: Caminar de dos en dos: el egoísmo arruina los equipos.<br><br>Cuerpo: En muchos ambientes laborales la consigna es pisotear al otro para conseguir el ascenso o hablar mal del compañero para sobresalir frente al jefe. Jesús envió a sus discípulos de dos en dos porque sabía que solos nos volvemos orgullosos o nos desanimamos fácil. El cristiano en el trabajo debe ser reconocido por ser solidario, por compartir el conocimiento y por levantar al compañero que se quedó rezagado.<br><br>Llamado a la acción (CTA): Etiqueta a un compañero de trabajo con el que hagas un excelente equipo y agradécele su apoyo diario."
+                "contenido": "Semana 24 - Miércoles 16 de junio Gancho: ¿Ayudas o pisas cabezas? Desarrollo: Jesús enviaba de dos en dos. No brillas apagando la luz del otro. Reto: #RetoJesúsMaestro: Ayuda a un compañero atrasado sin pedir crédito.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -888,7 +888,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 25 - Jueves 24 de junio: La honestidad en el comercio y la vida<br><br>Título: Que tu sí sea sí, y tu no sea no: cero viveza criolla.<br><br>Cuerpo: Nos han hecho creer que el \"vivo vive del bobo\" y que sacar ventaja con engaños es señal de inteligencia. Qué daño le hace esa mentalidad a nuestra sociedad. Jesús nos llama a una transparencia radical: precios justos en el negocio, medidas exactas, pagos puntuales y cumplimiento de la palabra empeñada. Un cristiano deshonesto en el comercio contradice el Evangelio con sus propios hechos.<br><br>Llamado a la acción (CTA): Comparte esta publicación si crees que Colombia se transforma cuando cada ciudadano decide actuar con total integridad.<br><br>JULIO: La compasión que camina con los excluidos"
+                "contenido": "Semana 25 - Miércoles 23 de junio Gancho: Tu honestidad es tu mejor sermón. Desarrollo: De nada sirve rezar si haces trampa. Que tu sí sea sí. Reto: #RetoJesúsMaestro: Cumple hoy una promesa pospuesta.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -924,7 +924,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 26 - Jueves 1 de julio: Romper los muros del prejuicio<br><br>Título: Jesús junto al pozo: cuando el amor supera las etiquetas.<br><br>Cuerpo: Los judíos y los samaritanos no se hablaban por rencillas históricas y religiosas. Sin embargo, Jesús fue al encuentro de la mujer samaritana al mediodía, le pidió agua y le devolvió la dignidad perdida. Con cuánta facilidad señalamos en el barrio al que tiene un pasado turbio, al que viste diferente o al migrante que llega buscando refugio. El amor de Cristo no pide antecedentes penales ni filiaciones políticas para brindar acogida.<br><br>Llamado a la acción (CTA): ¿Cuál es ese prejuicio social que más nos cuesta derribar en nuestra convivencia diaria? Reflexionemos juntos en los comentarios."
+                "contenido": "Semana 26 - Miércoles 30 de junio Gancho: \"No me pagan por esto\" es de egoístas. Desarrollo: A Jesús no le pagaron por lavar pies. Servir por amor te hace libre. Reto: #RetoJesúsMaestro: Haz un favor que no es tu obligación con sonrisa.<br><br>JULIO: Compasión"
             },
             {
                 "nombre": "Facebook",
@@ -960,7 +960,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 27 - Jueves 8 de julio: Multiplicar los panes del barrio<br><br>Título: Denles ustedes de comer: la solidaridad no espera al gobierno.<br><br>Cuerpo: Los discípulos querían despedir a la multitud hambrienta para que cada quien se las arreglara en las aldeas vecinas. Jesús les dio una orden que incomoda: \"Denles ustedes de comer\". A veces nos lavamos las manos esperando que las instituciones resuelvan todo, mientras el vecino de al lado no tiene con qué cocinar. El milagro de la multiplicación comenzó con lo poco que tenía un muchacho: cinco panes y dos peces puestos en común.<br><br>Llamado a la acción (CTA): Activamos nuestra \"Olla Comunitaria Parroquial\". Si deseas donar víveres o prestar tus manos para cocinar el domingo, escríbenos por mensaje privado."
+                "contenido": "Semana 27 - Miércoles 7 de julio Gancho: Burbuja de gente que piensa igual. Desarrollo: Jesús rompió prejuicios hablando con la samaritana. Reto: #RetoJesúsMaestro: Sé amable con quien tiene ideas opuestas.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -996,7 +996,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 28 - Jueves 15 de julio: El Buen Samaritano en la esquina<br><br>Título: No pases de largo frente al hermano que está tirado.<br><br>Cuerpo: El sacerdote y el levita pasaron de largo porque tenían afán de llegar a sus rezos al templo. Fue el samaritano, el forastero despreciado, quien se conmovió, curó las heridas con aceite y vino, subió al herido a su cabalgadura y pagó la posada. La religión verdadera se verifica en el asfalto, en la forma en que reaccionamos cuando vemos a alguien accidentado, vulnerable o pidiendo ayuda en nuestras calles.<br><br>Llamado a la acción (CTA): Comenta: ¿Qué gesto sencillo de ayuda recibiste alguna vez de un completo desconocido en un momento de apuro? Recordar el bien nos inspira a imitarlo."
+                "contenido": "Semana 28 - Miércoles 14 de julio Gancho: \"Me entristece\" en redes no es compasión. Desarrollo: Jesús sintió compasión y multiplicó los panes. La caridad cuesta. Reto: #RetoJesúsMaestro: Compra y regala un almuerzo a alguien en la calle.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1032,7 +1032,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 29 - Jueves 22 de julio: Caminar la segunda milla por amor<br><br>Título: Más allá del deber estricto: la generosidad que desarma.<br><br>Cuerpo: En los tiempos de Jesús, la ley romana obligaba a cualquier judío a cargar el bulto de un soldado durante una milla. Jesús sorprendió a todos diciendo: \"Si te obligan a llevar carga una milla, llévala dos\". Hacer solo lo que nos toca por contrato nos mantiene en la frialdad de la ley; caminar la segunda milla, haciendo favores imprevistos y sirviendo de más, es la firma inconfundible de quien ha conocido la gracia de Dios.<br><br>Llamado a la acción (CTA): Sorprende hoy a un vecino o familiar haciendo algo por él que no esperaba y que no le correspondía a él pedirte."
+                "contenido": "Semana 29 - Miércoles 21 de julio Gancho: Grabas al que sufre por likes. Desarrollo: El verdadero amor se ensucia las manos cuando nadie graba. Reto: #RetoJesúsMaestro: Cede tu lugar en la fila o bus.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1068,7 +1068,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 30 - Jueves 29 de julio: El leproso que vuelve a ser abrazado<br><br>Título: Tocar la herida: la cercanía que devuelve la vida.<br><br>Cuerpo: A los leprosos se les obligaba a vivir fuera de las murallas de la ciudad y a gritar \"¡Impuro!\" para que nadie se les acercara. Jesús estiró la mano y lo tocó antes de sanarlo. Cuántas personas en nuestro entorno sufren de lepras modernas: adicciones, soledad extrema o rechazo social. Lo que más necesitan no es juicio moral desde lejos, sino el calor de una mano amiga que les diga: \"Tú me importas\".<br><br>Llamado a la acción (CTA): Si conoces a una familia que esté pasando por el dolor de la adicción de un ser querido, déjanos su intención para ponerla en oración reservada.<br><br>AGOSTO: Sabiduría, prudencia y sanación de la lengua"
+                "contenido": "Semana 30 - Miércoles 28 de julio Gancho: \"Eso no me toca\" es egoísmo. Desarrollo: Si te piden una milla, camina dos. El amor sorprende. Reto: #RetoJesúsMaestro: Haz una labor en casa que no te correspondía.<br><br>AGOSTO: Sabiduría"
             },
             {
                 "nombre": "Facebook",
@@ -1104,7 +1104,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 31 - Jueves 5 de agosto: La trampa de las redes sociales<br><br>Título: No caigas en la provocación del odio digital.<br><br>Cuerpo: A Jesús lo rodeaban escribas y fariseos buscando que dijera una palabra en falso para armarle un escándalo público. Jesús respondía con serenidad, con preguntas profundas o con un silencio desconcertante. Hoy las redes sociales premian el insulto rápido, la burla sarcástica y la polarización tóxica. Como parroquia digital estamos llamados a desarmar el teclado y ser sembradores de paz y sensatez en los comentarios.<br><br>Llamado a la acción (CTA): Haz este pacto de paz con nosotros: si lees un comentario ofensivo hoy, no contestes con ira. Responde con altura o guarda silencio."
+                "contenido": "Semana 31 - Miércoles 4 de agosto Gancho: Pelear con extraños te roba paz. Desarrollo: A Jesús lo provocaban, pero manejaba silencios. Reto: #RetoJesúsMaestro: Ignora el comentario indignante de hoy.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1140,7 +1140,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 32 - Jueves 12 de agosto: El arma destructiva del rumor<br><br>Título: Soltar la piedra antes de lanzarla contra el vecino.<br><br>Cuerpo: Una turba enardecida con piedras en la mano estaba lista para despedazar a una mujer adúltera. Jesús se agachó a escribir en el suelo y pronunció la frase que desmanteló el linchamiento: \"El que esté libre de pecado, que lance la primera piedra\". Uno a uno fueron soltando las piedras, empezando por los más viejos. Cuántas reputaciones se asesinan a diario en los barrios con el veneno del chisme. Suelta la piedra hoy.<br><br>Llamado a la acción (CTA): Escribe en los comentarios la frase: \"Elijo cuidar la honra de mi prójimo\" y ayúdanos a desterrar el chisme de nuestras vidas."
+                "contenido": "Semana 32 - Miércoles 11 de agosto Gancho: El chisme asesina socialmente. Desarrollo: Juzgar al otro te ciega. Jesús dijo: \"El libre de pecado tire la piedra\". Reto: #RetoJesúsMaestro: Si hay chisme, cambia de tema.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1176,7 +1176,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 33 - Jueves 19 de agosto: Decir la verdad sin destruir al otro<br><br>Título: La caridad sin verdad es debilidad; la verdad sin caridad es crueldad.<br><br>Cuerpo: Jesús no le ocultó la verdad a la mujer samaritana ni al joven rico, pero siempre les habló mirándolos con profundo amor. A veces nos vanagloriamos de ser \"muy frenteros\" o de \"cantarle la tabla\" a la gente, dejando corazones destrozados a nuestro paso. La verdad cristiana no es un mazo para golpear cabezas; es una luz tierna que guía en la oscuridad sin enceguecer ni humillar.<br><br>Llamado a la acción (CTA): Si tienes que corregir o aconsejar a alguien en estos días, pide primero al Espíritu Santo la mansedumbre necesaria para no herir."
+                "contenido": "Semana 33 - Miércoles 18 de agosto Gancho: Sinceridad sin empatía es crueldad. Desarrollo: Si tu verdad destruye, no es de Cristo. Reto: #RetoJesúsMaestro: Critica usando la regla del sándwich (elogio primero).<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1212,7 +1212,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 34 - Jueves 26 de agosto: La aritmética del perdón cristiano<br><br>Título: Setenta veces siete: soltar las cadenas del rencor.<br><br>Cuerpo: Pedro creyó ser muy generoso preguntando si debía perdonar hasta siete veces la misma ofensa. Jesús rompió sus esquemas: \"No te digo siete veces, sino setenta veces siete\". Guardar rencor por meses o años por una mala jugada vecinal o familiar es condenarse a vivir atado al pasado. El perdón no justifica la maldad del otro; el perdón te libera a ti de seguir sangrando por una herida vieja.<br><br>Llamado a la acción (CTA): ¿Hay un perdón difícil que necesites dar hoy en tu corazón? Escribe \"PERDONO\" en los comentarios como un acto de fe ante Dios.<br><br>SEPTIEMBRE: La mesa compartida, hospitalidad y alegría fraterna"
+                "contenido": "Semana 34 - Miércoles 25 de agosto Gancho: Guardar rencor es tomar veneno. Desarrollo: Perdona 70 veces 7. Es liberarte tú. Reto: #RetoJesúsMaestro: Ora sinceramente por quien te hizo daño.<br><br>SEPTIEMBRE: Mesa"
             },
             {
                 "nombre": "Facebook",
@@ -1248,7 +1248,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 35 - Jueves 2 de septiembre: El calor del comedor familiar<br><br>Título: La mesa: el altar cotidiano donde Dios se hace presente.<br><br>Cuerpo: En los Evangelios, Jesús siempre está yendo a una comida, comiendo en una casa o saliendo de un banquete. La mesa no es un simple lugar donde ingerir calorías; es el espacio sagrado donde se miran los esposos, donde los hijos cuentan sus temores y donde se parte el pan con alegría. Cuando el comedor de una casa se apaga y cada quien come aislado en su cuarto, la familia se enfría por dentro.<br><br>Llamado a la acción (CTA): Sube una foto en los comentarios compartiendo un café, una arepa o el almuerzo con los tuyos (sin celulares a la vista). ¡Celebremos la mesa viva!"
+                "contenido": "Semana 35 - Miércoles 1 de septiembre Gancho: Comer mirando el celular destruye la familia. Desarrollo: La mesa era lugar de milagros. Hoy es trámite. Reto: #RetoJesúsMaestro: Cena sin pantallas y pregunta: \"¿Cómo te fue?\".<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1284,7 +1284,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 36 - Jueves 9 de septiembre: La visita inesperada de Jesús<br><br>Título: Zaqueo: bájate del árbol que hoy me hospedo en tu casa.<br><br>Cuerpo: Zaqueo era un cobrador de impuestos corrupto al que nadie en Jericó quería invitar a su sala. Pero Jesús levantó la mirada hacia el árbol sicómoro y le dijo que quería almorzar con él. Aquel gesto de confianza y cercanía transformó el corazón de Zaqueo, quien de inmediato devolvió cuatro veces lo robado y repartió la mitad de sus bienes a los pobres. La acogida incondicional cambia a la gente más que mil regaños.<br><br>Llamado a la acción (CTA): Invita este fin de semana a tu mesa o a tomar un tinto a alguien de la comunidad que sepas que vive en soledad."
+                "contenido": "Semana 36 - Miércoles 8 de septiembre Gancho: ¿Hace cuánto no invitas a alguien a casa? Desarrollo: Jesús se autoinvitó donde Zaqueo. Reto: #RetoJesúsMaestro: Invita a un compañero a un café.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1320,7 +1320,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 37 - Jueves 16 de septiembre: La fiesta sana de Caná de Galilea<br><br>Título: El buen vino de la alegría que Jesús no deja acabar.<br><br>Cuerpo: El primer signo milagroso del Maestro no ocurrió en el templo de Jerusalén, sino en una fiesta de pueblo campesino que se estaba quedando sin vino para celebrar una boda. A Jesús le agrada la fiesta limpia, la risa compartida, la música y el gozo entre amigos. La fe no nos hace amargados ni enemigos de la alegría; al contrario, cuando Jesús entra a una comunidad, el agua insípida de la tristeza se convierte en vino de esperanza.<br><br>Llamado a la acción (CTA): Comenta: ¿Qué canción o alabanza te levanta el ánimo cuando sientes que el día está difícil? Armemos nuestra lista de alabanza comunitaria."
+                "contenido": "Semana 37 - Miércoles 15 de septiembre Gancho: Envidia espiritual te pudre por dentro. Desarrollo: Jesús multiplicó vino para celebrar la alegría ajena. Reto: #RetoJesúsMaestro: Felicita a alguien por su logro sin envidia.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1356,7 +1356,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 38 - Jueves 23 de septiembre: La mesa abierta sin exclusiones<br><br>Título: Derribar las roscas y abrir el círculo de la comunidad.<br><br>Cuerpo: Qué fácil resulta armar grupos cerrados en el barrio, en el trabajo e incluso en los comités parroquiales, mirando con desconfianza al recién llegado. Los fariseos murmuraban indignados: \"Este hombre acoge a los pecadores y come con ellos\". Si nuestra parroquia digital solo le abre los brazos a los que ya son piadosos o perfectos, traicionamos el modelo del Maestro. Aquí caben todos los que buscan consuelo y redención.<br><br>Llamado a la acción (CTA): Si es la primera vez que ves las publicaciones de nuestra parroquia digital, escribe \"HOLA\" en los comentarios. ¡Queremos darte la bienvenida a esta familia!"
+                "contenido": "Semana 38 - Miércoles 22 de septiembre Gancho: Roscas en el trabajo. Jesús las odiaba. Desarrollo: Jesús comía con los rechazados. Abre tu círculo. Reto: #RetoJesúsMaestro: Habla con la persona que siempre está sola.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1392,7 +1392,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 39 - Jueves 30 de septiembre: La Palabra que alimenta el camino<br><br>Título: No solo de pan vive el hombre: alimentar el espíritu.<br><br>Cuerpo: Celebramos el mes de la Sagrada Escritura. Muchas veces la Biblia reposa en una repisa de la sala como un adorno lleno de polvo abierta en el Salmo 91 para la \"buena suerte\". La Palabra de Dios no es un amuleto mágico; es una carta viva que debe ser leída, meditada y llevada a los hechos en la calle. Quien lee el Evangelio todos los días aprende a pensar, mirar y actuar como Jesús Maestro.<br><br>Llamado a la acción (CTA): ¿Cuál es tu versículo o frase favorita del Evangelio? Compártela abajo para que ilumine la jornada de otro hermano.<br><br>OCTUBRE: Paz mental, serenidad y confianza en la tormenta"
+                "contenido": "Semana 39 - Miércoles 29 de septiembre Gancho: ¿Te ofendes por todo? Desarrollo: A Jesús lo insultaron y no hirió su ego. Tu paz vale más. Reto: #RetoJesúsMaestro: No te tomes nada personal hoy.<br><br>OCTUBRE: Paz Mental"
             },
             {
                 "nombre": "Facebook",
@@ -1428,7 +1428,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 40 - Jueves 7 de octubre: La tiranía del control<br><br>Título: Miren los lirios del campo: Dios sabe lo que necesitas.<br><br>Cuerpo: Nos enfermamos del colon, de insomnio y de migrañas por querer controlar lo incontrolable: la economía, el futuro de los hijos, la opinión de los vecinos y el día de mañana. Jesús nos invita a mirar a los pajaritos y a las flores silvestres: no acumulan en graneros y el Padre cuida de ellos con amor infinito. Trabaja con esmero y honradez, pero suelta la obsesión de querer dirigir el universo entero.<br><br>Llamado a la acción (CTA): Escribe en los comentarios: \"Señor, en tus manos encomiendo mi vida y mi familia\" y siente la paz de soltar las cargas."
+                "contenido": "Semana 40 - Miércoles 6 de octubre Gancho: Necesidad de control enferma. Desarrollo: Jesús dijo que viéramos las aves. Trabaja y suelta el control. Reto: #RetoJesúsMaestro: Delega una tarea por perfeccionista.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1464,7 +1464,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 41 - Jueves 14 de octubre: El afán destructivo del mañana<br><br>Título: A cada día le basta su propio afán: vive el presente.<br><br>Cuerpo: Cuántas personas desperdician el almuerzo de hoy sufriendo por los pagos del próximo mes. Jesús nos enseñó a orar diciendo: \"Danos hoy nuestro pan de cada día\". No nos enseñó a pedir el pan del año entrante. La ansiedad nos roba la belleza de lo que Dios nos regala en el presente. Concéntrate en la tarea de esta jornada, ama a quienes tienes hoy al lado y deja el mañana bajo la misericordia del Señor.<br><br>Llamado a la acción (CTA): Comparte esta publicación con alguien que sepas que vive abrumado por el estrés y recuérdale que Dios no lo dejará desamparado."
+                "contenido": "Semana 41 - Miércoles 13 de octubre Gancho: Amargado hoy por problemas de mañana. Desarrollo: A cada día su afán. Resuelve hoy, suelta mañana. Reto: #RetoJesúsMaestro: Haz 3 cosas que SÍ puedes resolver hoy.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1500,7 +1500,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 42 - Jueves 21 de octubre: Apartar la vista de los vientos huracanados<br><br>Título: Pedro caminando sobre las olas: no mires la tempestad.<br><br>Cuerpo: Mientras Pedro mantuvo la mirada fija en los ojos de Jesús, caminó sobre el agua desafiando las leyes de la física. Pero apenas miró las olas gigantescas y sintió la fuerza del viento, el terror lo invadió y empezó a ahogarse. Si te pasas el día consumiendo tragedias, quejas y noticias pesimistas, te vas a hundir en la desesperanza. Mira a Cristo por encima de tus problemas; Él es más fuerte que cualquier vendaval.<br><br>Llamado a la acción (CTA): Comenta qué hábito diario te ayuda a desconectarte de las malas noticias y mantener la paz en tu corazón."
+                "contenido": "Semana 42 - Miércoles 20 de octubre Gancho: Alimentas ansiedad desde que abres los ojos. Desarrollo: Pedro se hundió al ver la tormenta. Cuida qué consumes. Reto: #RetoJesúsMaestro: Prohibidas redes sociales la primera hora del día.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1536,7 +1536,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 43 - Jueves 28 de octubre: El mandamiento sagrado del descanso<br><br>Título: Vengan a mí los cansados: descansar no es un pecado.<br><br>Cuerpo: Hemos creado una cultura donde parece que quien no vive al borde del colapso no es productivo. Qué equivocación tan grande. Dios mismo descansó el séptimo día tras la creación, y Jesús subía a la montaña a reposar y mandaba a sus discípulos a tomarse un respiro en despoblado. Tu cuerpo es templo sagrado: dormir bien, compartir con los tuyos y reposar es también un deber moral y una confesión de fe.<br><br>Llamado a la acción (CTA): ¿Qué planes de descanso sano tienes para este fin de semana en familia? Cuéntanos en los comentarios.<br><br>NOVIEMBRE: Sanación, consuelo en el duelo y esperanza viva"
+                "contenido": "Semana 43 - Miércoles 27 de octubre Gancho: Si no descansas, pagarás factura. Desarrollo: Glorificamos 24/7. Jesús descansaba y se apartaba. Reto: #RetoJesúsMaestro: Domingo intocable. Cero correos.<br><br>NOVIEMBRE: Sanación"
             },
             {
                 "nombre": "Facebook",
@@ -1572,7 +1572,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 44 - Jueves 4 de noviembre: Las lágrimas benditas de Jesús<br><br>Título: Frente a la tumba de Lázaro: Dios llora con los que lloran.<br><br>Cuerpo: En el mes donde recordamos a nuestros fieles difuntos, el Evangelio nos conmueve con la escena más humana de Jesús: viendo llorar a Marta y a María, Él también lloró conmovido hasta las entrañas. Dios no es una estatua fría e insensible en el cielo. Cuando pierdes a un ser querido o sientes el desgarro del luto, Cristo se sienta en tu sala y llora contigo. Las lágrimas no demuestran falta de fe; son la señal sagrada del amor que nunca muere.<br><br>Llamado a la acción (CTA): Escribe en los comentarios el nombre de tu ser querido que ya partió a la Casa del Padre. Toda la comunidad ofrecerá una oración por su eterno descanso."
+                "contenido": "Semana 44 - Miércoles 3 de noviembre Gancho: Decir \"no estés triste\" es mala ayuda. Desarrollo: Jesús lloró con las hermanas de Lázaro. Acompaña el dolor. Reto: #RetoJesúsMaestro: Llama a alguien triste y solo escúchalo.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1608,7 +1608,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 45 - Jueves 11 de noviembre: Las Bienaventuranzas del consuelo<br><br>Título: Felices los que lloran, porque ellos recibirán consuelo.<br><br>Cuerpo: Para el mundo, felices son los que ríen a carcajadas, los que tienen dinero de sobra y los que nunca sufren contratiempos. Pero la escala de valores del Reino de Dios es totalmente opuesta. Jesús declara dichosos a los que sufren, porque en el vacío de sus pérdidas es donde la ternura de Dios se experimenta con mayor fuerza. La fe no elimina el sufrimiento terrenal, pero le otorga un sentido redentor y una promesa eterna.<br><br>Llamado a la acción (CTA): Tómate un minuto para enviar un mensaje o llamar a alguien de tu entorno que esté pasando por un duelo reciente. Tu presencia es su mejor consuelo."
+                "contenido": "Semana 45 - Miércoles 10 de noviembre Gancho: Te sientes solo. Jesús consuela. Desarrollo: El mundo exige ser fuerte, pero en la debilidad Dios te abraza. Reto: #RetoJesúsMaestro: Envía un audio de ánimo a un amigo desanimado.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1644,7 +1644,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 46 - Jueves 18 de noviembre: Sanar las heridas de la infancia<br><br>Título: La piscina de Betesda: ¿De verdad quieres quedar curado?<br><br>Cuerpo: Llevaba treinta y ocho años postrado esperando que alguien lo metiera al agua, quejándose de que nadie lo ayudaba. Jesús fue directo al grano: \"¿Quieres curarte?\". A veces nos acostumbramos a nuestras viejas quejas, al resentimiento contra nuestros padres o a la amargura por heridas de la infancia, utilizándolas como excusa para amargarle la vida a los demás hoy. Jesús te dice hoy: \"Toma tu camilla y echa a andar\".<br><br>Llamado a la acción (CTA): Escribe \"SANO\" en los comentarios si hoy decides soltar el papel de víctima y abrazar la sanación que el Señor te ofrece."
+                "contenido": "Semana 46 - Miércoles 17 de noviembre Gancho: El tiempo infecta heridas sin limpiar. Desarrollo: Jesús sanaba la raíz. Entrégale tu herida. Reto: #RetoJesúsMaestro: Pide perdón a quien lastimaste hace tiempo.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1680,7 +1680,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 47 - Jueves 25 de noviembre: La hija de Jairo: esperanza contra toda evidencia<br><br>Título: No teman; basta que tengan fe y la niña se salvará.<br><br>Cuerpo: Mientras iban de camino, le avisaron al padre de familia: \"Tu hija ha muerto, ¿para qué sigues molestando al Maestro?\". Qué fácil es rendirse ante las malas noticias de los médicos, de los jueces o de los bancos. Pero Jesús entró al cuarto, tomó a la muchacha de la mano y le dijo: \"Talita cumi\" (Muchacha, levántate). Ninguna situación en tu familia o en tu vida espiritual está tan muerta que el poder de Dios no la pueda resucitar.<br><br>Llamado a la acción (CTA): ¿Cuál es esa situación en tu vida que parece perdida o sin salida? Ponla con fe en las manos de Dios dejando un comentario aquí.<br><br>DICIEMBRE: La revolución del pesebre, humildad y acción de gracias"
+                "contenido": "Semana 47 - Miércoles 24 de noviembre Gancho: Tu pesimismo apaga la fe de otros. Desarrollo: El cristiano lleva esperanza, no fatalismo. Reto: #RetoJesúsMaestro: Cero quejas del país por 3 días.<br><br>DICIEMBRE: Generosidad"
             },
             {
                 "nombre": "Facebook",
@@ -1716,7 +1716,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 48 - Jueves 2 de diciembre: El silencio vigilante del Adviento<br><br>Título: Preparar el pesebre del corazón antes que las luces de la calle.<br><br>Cuerpo: Comenzó el último mes del año y la ciudad se llena de ruido, compras desesperadas, trancones y listas infinitas de regalos materiales. Pero la Navidad cristiana se gestó en el silencio humilde de Nazaret y Belén. Si llenamos la casa de adornos pero tenemos el corazón abarrotado de envidias, vanidad y peleas familiares, el Niño Jesús no encontrará dónde nacer. Preparemos el corazón con reconciliación y caridad viva.<br><br>Llamado a la acción (CTA): ¿Cómo piensas preparar espiritualmente tu hogar para recibir la Navidad en este Adviento? Comparte tu propósito con la comunidad."
+                "contenido": "Semana 48 - Miércoles 1 de diciembre Gancho: ¿Estrés de diciembre? Desarrollo: Nació en el silencio. No dejes que el consumismo robe paz. Reto: #RetoJesúsMaestro: 10 minutos de silencio absoluto hoy.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1752,7 +1752,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 49 - Jueves 9 de diciembre: La caridad oculta que no busca fotos<br><br>Título: Que tu mano izquierda no sepa lo que hace tu derecha.<br><br>Cuerpo: En esta época muchos aprovechan para hacer obras benéficas buscando salir en la foto o recibir los aplausos de los vecinos. Jesús fue implacable con esa hipocresía: quien hace el bien para ser visto, ya recibió su pobre recompensa humana. La verdadera caridad cristiana se hace en silencio, con pudor, cuidando la dignidad del necesitado como si fuera Cristo mismo en persona. Que tu alegría sea dar sin que nadie se entere.<br><br>Llamado a la acción (CTA): Participa en nuestra campaña parroquial \"Regalo Anónimo\". Adopta una carta de un niño o anciano vulnerable escribiéndonos por mensaje interno."
+                "contenido": "Semana 49 - Miércoles 8 de diciembre Gancho: Ayudar por la foto es perder tiempo. Desarrollo: Que tu izquierda no sepa lo de la derecha. Caridad oculta. Reto: #RetoJesúsMaestro: Obra de caridad en absoluto secreto.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1788,7 +1788,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 50 - Jueves 16 de diciembre: La posada que nadie quiso abrir<br><br>Título: No había lugar para ellos en la posada: ¿Le abrirás tú la puerta?<br><br>Cuerpo: Empezamos las tradicionales Novenas de Aguinaldos en Colombia. María, a punto de dar a luz, y José golpearon puerta tras puerta en Belén recibiendo siempre la misma respuesta fría: \"Aquí no hay lugar\". Hoy Jesús sigue tocando la puerta de nuestras casas vestido de vecino enfermo, de familiar marginado o de persona sin techo en el andén. No le cierres la puerta al Salvador cerrándole la mano a tu hermano.<br><br>Llamado a la acción (CTA): Nos conectamos todas las noches a las 7:00 p.m. por Facebook Live para rezar comunitariamente la Novena de Navidad. ¿Desde qué rincón te vas a conectar con tu familia?"
+                "contenido": "Semana 50 - Miércoles 15 de diciembre Gancho: Cosas caras para tapar ausencias. Desarrollo: En el pesebre había presencia, no lujos. Reto: #RetoJesúsMaestro: Dedica la tarde entera a jugar con tu familia.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1824,7 +1824,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 51 - Jueves 23 de diciembre: La pobreza que enriqueció al mundo<br><br>Título: Nochebuena: Dios no necesitó palacios para salvarnos.<br><br>Cuerpo: El Creador del cielo y de la tierra no nació en una clínica privada de Roma ni en una mansión forrada de oro. Nació en una cueva prestada para animales, envuelto en pañales sencillos y acostado sobre paja seca. No te angusties si este año no hubo presupuesto para estrenar ropa costosa o preparar una cena pomposa. En Belén solo había amor, ternura y fe; y con eso bastó para llenar el universo entero de luz.<br><br>Llamado a la acción (CTA): Escribe un mensaje de bendición navideña para todas las familias de nuestra parroquia digital Jesús Maestro. Que el Niño Dios colme sus hogares de paz."
+                "contenido": "Semana 51 - Miércoles 22 de diciembre Gancho: Dar lo que sobra no es ser generoso. Desarrollo: Los Magos dieron lo mejor. Si no cuesta, es limpieza de clóset. Reto: #RetoJesúsMaestro: Regalo nuevo a familia necesitada.<br><br>"
             },
             {
                 "nombre": "Facebook",
@@ -1860,7 +1860,7 @@ const planData = [
                 "dia": "Miércoles",
                 "color": "bg-gray-100 border-black text-gray-900",
                 "badge": "bg-black",
-                "contenido": "Semana 52 - Jueves 30 de diciembre: La memoria agradecida del año cumplido<br><br>Título: El cántico del Magníficat: gracias, Señor, por este 2027.<br><br>Cuerpo: Llegamos al último jueves del año. Hubo días de fiesta y días de llanto; metas que se cumplieron y planes que se vinieron abajo. Pero por encima de todo, la fidelidad de Dios nunca nos faltó: tuvimos pan en la mesa, techo donde guarecernos y una comunidad digital donde rezar y abrazarnos espiritualmente. Terminemos el año como la Virgen María, cantando con el alma que el Todopoderoso ha hecho obras grandes por nosotros.<br><br>Llamado a la acción (CTA): Escribe 3 bendiciones concretas que Dios te concedió durante este año 2027. ¡Despidamos el año con un inmenso corazón agradecido!"
+                "contenido": "Semana 52 - Miércoles 29 de diciembre Gancho: Te enfocas en lo que salió mal. Desarrollo: Un cristiano con memoria agradecida es feliz. Reto: #RetoJesúsMaestro: Escribe 5 milagros ocultos del año.<br><br>"
             },
             {
                 "nombre": "Facebook",

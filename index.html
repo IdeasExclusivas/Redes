@@ -335,10 +335,15 @@
                 },
 
                 clearProgress() {
-                    if(confirm("¿Estás seguro de reiniciar todo el progreso?")) {
+                    if(confirm("¿Estás seguro de reiniciar TODO el progreso y textos a su estado original?")) {
                         this.checklists = {};
+                        this.savedTexts = {};
                         this.initEmptyChecklists();
-                        this.saveChecklists();
+                        localStorage.removeItem('parroquia_texts');
+                        localStorage.removeItem('parroquia_checklists');
+                        this.saveToCloud();
+                        alert("Progreso reiniciado. Recargando...");
+                        location.reload();
                     }
                 },
 
