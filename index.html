@@ -79,7 +79,7 @@
         </aside>
 
         <!-- Main Content -->
-        <main class="flex-1" x-cloak>
+        <main id="content-area" class="flex-1" x-cloak>
             <div class="mb-6">
                 <h1 class="text-3xl font-bold text-slate-900">Semana <span x-text="currentWeek.semana"></span>: <span x-text="currentWeek.tema"></span></h1>
                 <p class="text-slate-500 mt-1" x-text="currentWeek.fecha"></p>
@@ -250,7 +250,14 @@
 
                 selectWeek(index) {
                     this.currentWeekIndex = index;
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                    // En celulares, hacer scroll automático hacia abajo donde está el texto
+                    if (window.innerWidth < 768) {
+                        setTimeout(() => {
+                            document.getElementById('content-area').scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }, 100);
+                    } else {
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }
                 },
 
                 toggleMes(mes) {
