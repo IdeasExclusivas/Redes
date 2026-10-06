@@ -149,8 +149,20 @@
                 </template>
             </div>
             
-            <div class="mt-8 flex justify-end gap-4">
-                <button @click="clearProgress()" class="text-xs text-red-500 hover:text-red-700 underline">Reiniciar progreso</button>
+            <div class="mt-8 flex flex-col md:flex-row justify-between items-center gap-4 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                <div class="flex items-center gap-4">
+                    <button @click="exportBackup()" class="text-sm bg-indigo-50 text-indigo-700 px-4 py-2 rounded-lg hover:bg-indigo-100 transition-colors font-medium flex items-center gap-2">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                        Guardar Copia de Seguridad
+                    </button>
+                    
+                    <label class="cursor-pointer text-sm bg-slate-50 text-slate-700 px-4 py-2 rounded-lg hover:bg-slate-100 transition-colors border border-slate-200 font-medium flex items-center gap-2">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+                        Restaurar Copia
+                        <input type="file" accept=".json" class="hidden" @change="importBackup($event)">
+                    </label>
+                </div>
+                <button @click="clearProgress()" class="text-xs text-red-500 hover:text-red-700 underline">Reiniciar todo el progreso</button>
             </div>
         </main>
     </div>
@@ -268,6 +280,47 @@
                         this.initEmptyChecklists();
                         this.saveChecklists();
                     }
+                },
+
+                // Backups
+                exportBackup() {
+                    const data = {
+                        checklists: this.checklists,
+                        savedTexts: this.savedTexts
+                    };
+                    const blob = new Blob([JSON.stringify(data)], { type: "application/json" });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `Copia_Seguridad_Parroquia_${new Date().toISOString().split('T')[0]}.json`;
+                    a.click();
+                    URL.revokeObjectURL(url);
+                    alert("¡Copia de seguridad descargada con éxito!");
+                },
+
+                importBackup(event) {
+                    const file = event.target.files[0];
+                    if (!file) return;
+
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        try {
+                            const data = JSON.parse(e.target.result);
+                            if (data.checklists) {
+                                this.checklists = data.checklists;
+                                this.saveChecklists();
+                            }
+                            if (data.savedTexts) {
+                                this.savedTexts = data.savedTexts;
+                                localStorage.setItem('parroquia_texts', JSON.stringify(this.savedTexts));
+                            }
+                            alert("¡Copia restaurada con éxito! La página se actualizará.");
+                            location.reload();
+                        } catch (error) {
+                            alert("Error al leer el archivo. Asegúrate de subir el archivo .json correcto.");
+                        }
+                    };
+                    reader.readAsText(file);
                 }
             }
         }
