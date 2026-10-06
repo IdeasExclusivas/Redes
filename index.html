@@ -92,12 +92,31 @@
                             </div>
                         </div>
                         
-                        <!-- Card Body (Content) -->
-                        <div class="p-6 flex-1 text-slate-700 text-sm leading-relaxed" x-html="red.contenido">
+                        <!-- Card Body (Editable Content) -->
+                        <div class="p-6 flex-1 text-slate-700 text-sm leading-relaxed relative group">
+                            <!-- Botón de edición -->
+                            <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                                <span class="bg-indigo-100 text-indigo-700 text-xs px-2 py-1 rounded shadow-sm">Haz clic en el texto para editar</span>
+                            </div>
+                            
+                            <div class="outline-none focus:ring-2 focus:ring-indigo-300 focus:bg-indigo-50 p-2 rounded transition-colors"
+                                 contenteditable="true"
+                                 x-html="getSavedContent(currentWeek.semana, red.nombre, red.contenido)"
+                                 @blur="saveContent(currentWeek.semana, red.nombre, $event.target.innerHTML)">
+                            </div>
+                        </div>
+
+                        <!-- Multimedia Folder Path -->
+                        <div class="bg-slate-100 px-4 py-3 border-t border-slate-200 flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <svg class="w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path></svg>
+                                <span class="text-xs text-slate-600 font-mono">Carpeta: Material/Enero/Semana_<span x-text="currentWeek.semana"></span>/<span x-text="red.nombre"></span></span>
+                            </div>
+                            <span class="text-[10px] bg-slate-200 text-slate-500 px-2 py-0.5 rounded">Guarda videos/audios aquí</span>
                         </div>
 
                         <!-- Card Footer (Checklist) -->
-                        <div class="bg-slate-50 p-4 border-t border-slate-100">
+                        <div class="bg-slate-50 p-4 border-t border-slate-200">
                             <h4 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Checklist de Producción</h4>
                             <div class="space-y-2">
                                 <template x-for="task in ['Guion Revisado', 'Imagen/Video Creado', 'Audio Grabado', 'Programado en Metricool']">
@@ -119,7 +138,7 @@
                 </template>
             </div>
             
-            <div class="mt-8 flex justify-end">
+            <div class="mt-8 flex justify-end gap-4">
                 <button @click="clearProgress()" class="text-xs text-red-500 hover:text-red-700 underline">Reiniciar progreso</button>
             </div>
         </main>
@@ -132,18 +151,25 @@
                 planData: planData, // Loaded from data.js
                 currentWeekIndex: 0,
                 checklists: {},
+                savedTexts: {},
 
                 get currentWeek() {
                     return this.planData[this.currentWeekIndex];
                 },
 
                 initApp() {
-                    // Load saved checklists from localStorage
-                    const saved = localStorage.getItem('parroquia_checklists');
-                    if (saved) {
-                        this.checklists = JSON.parse(saved);
+                    // Load saved checklists
+                    const savedChecks = localStorage.getItem('parroquia_checklists');
+                    if (savedChecks) {
+                        this.checklists = JSON.parse(savedChecks);
                     } else {
                         this.initEmptyChecklists();
+                    }
+
+                    // Load saved texts
+                    const savedContent = localStorage.getItem('parroquia_texts');
+                    if (savedContent) {
+                        this.savedTexts = JSON.parse(savedContent);
                     }
                 },
 
@@ -164,6 +190,18 @@
 
                 saveChecklists() {
                     localStorage.setItem('parroquia_checklists', JSON.stringify(this.checklists));
+                },
+
+                // Text Editing Logic
+                getSavedContent(semana, redNombre, defaultContent) {
+                    const key = semana + '_' + redNombre;
+                    return this.savedTexts[key] || defaultContent;
+                },
+
+                saveContent(semana, redNombre, newHtml) {
+                    const key = semana + '_' + redNombre;
+                    this.savedTexts[key] = newHtml;
+                    localStorage.setItem('parroquia_texts', JSON.stringify(this.savedTexts));
                 },
 
                 getWeekProgress(weekIndex) {
