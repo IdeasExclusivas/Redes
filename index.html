@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Mando - Parroquia Digital</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Alpine.js for lightweight reactivity -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <!-- Load our data -->
+    <script src="data.js"></script>
+    <style>
+        [x-cloak] { display: none !important; }
+        .checkbox-custom:checked + div {
+            background-color: #22c55e;
+            border-color: #22c55e;
+        }
+        .checkbox-custom:checked + div svg {
+            display: block;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 min-h-screen text-slate-800 font-sans" x-data="appData()" x-init="initApp()">
+
+    <!-- Navbar -->
+    <nav class="bg-indigo-600 text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 002-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    <span class="font-bold text-xl">Centro de Mando - Parroquia Digital</span>
+                </div>
+                <div>
+                    <span class="text-sm bg-indigo-500 py-1 px-3 rounded-full">Año 2027</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row gap-8">
+        
+        <!-- Sidebar: Week Selector -->
+        <aside class="w-full md:w-64 shrink-0">
+            <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-4 sticky top-6">
+                <h2 class="font-bold text-lg mb-4 text-indigo-900 border-b pb-2">Mes de Enero</h2>
+                <div class="space-y-2">
+                    <template x-for="(week, index) in planData" :key="index">
+                        <button 
+                            @click="selectWeek(index)"
+                            :class="currentWeekIndex === index ? 'bg-indigo-50 border-indigo-200 text-indigo-700 font-semibold' : 'hover:bg-slate-50 border-transparent text-slate-600'"
+                            class="w-full text-left px-4 py-3 rounded-lg border transition-colors duration-150 flex items-center justify-between">
+                            <span>Semana <span x-text="week.semana"></span></span>
+                            <!-- Progress indicator bubble -->
+                            <span class="text-xs py-0.5 px-2 rounded-full" 
+                                  :class="getWeekProgress(index) === 100 ? 'bg-green-100 text-green-700' : 'bg-slate-100 text-slate-500'"
+                                  x-text="getWeekProgress(index) + '%'">
+                            </span>
+                        </button>
+                    </template>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1" x-cloak>
+            <div class="mb-6">
+                <h1 class="text-3xl font-bold text-slate-900">Semana <span x-text="currentWeek.semana"></span>: <span x-text="currentWeek.tema"></span></h1>
+                <p class="text-slate-500 mt-1" x-text="currentWeek.fecha"></p>
+                
+                <!-- Progress Bar -->
+                <div class="mt-4 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                    <div class="flex justify-between text-sm font-medium mb-2">
+                        <span class="text-slate-600">Progreso de la semana</span>
+                        <span class="text-indigo-600" x-text="getWeekProgress(currentWeekIndex) + '%'"></span>
+                    </div>
+                    <div class="w-full bg-slate-100 rounded-full h-2.5">
+                        <div class="bg-indigo-600 h-2.5 rounded-full transition-all duration-500" :style="'width: ' + getWeekProgress(currentWeekIndex) + '%'"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Networks Grid -->
+            <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
+                <template x-for="red in currentWeek.redes" :key="red.nombre">
+                    <div class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
+                        <!-- Card Header -->
+                        <div class="p-4 border-b flex justify-between items-center" :class="red.color">
+                            <div class="flex items-center gap-2">
+                                <span class="text-white text-xs font-bold px-2 py-1 rounded shadow-sm" :class="red.badge" x-text="red.nombre"></span>
+                                <span class="font-medium opacity-80" x-text="red.dia"></span>
+                            </div>
+                        </div>
+                        
+                        <!-- Card Body (Content) -->
+                        <div class="p-6 flex-1 text-slate-700 text-sm leading-relaxed" x-html="red.contenido">
+                        </div>
+
+                        <!-- Card Footer (Checklist) -->
+                        <div class="bg-slate-50 p-4 border-t border-slate-100">
+                            <h4 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Checklist de Producción</h4>
+                            <div class="space-y-2">
+                                <template x-for="task in ['Guion Revisado', 'Imagen/Video Creado', 'Audio Grabado', 'Programado en Metricool']">
+                                    <label class="flex items-center gap-3 cursor-pointer group">
+                                        <div class="relative flex items-center justify-center">
+                                            <input type="checkbox" class="checkbox-custom opacity-0 absolute h-5 w-5 cursor-pointer" 
+                                                   x-model="checklists[currentWeek.semana + '_' + red.nombre + '_' + task]"
+                                                   @change="saveChecklists()">
+                                            <div class="h-5 w-5 border-2 border-slate-300 rounded bg-white transition-colors flex items-center justify-center group-hover:border-indigo-400">
+                                                <svg class="w-3 h-3 text-white hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path></svg>
+                                            </div>
+                                        </div>
+                                        <span class="text-sm text-slate-600 group-hover:text-slate-900 transition-colors" x-text="task" :class="checklists[currentWeek.semana + '_' + red.nombre + '_' + task] ? 'line-through text-slate-400' : ''"></span>
+                                    </label>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+            
+            <div class="mt-8 flex justify-end">
+                <button @click="clearProgress()" class="text-xs text-red-500 hover:text-red-700 underline">Reiniciar progreso</button>
+            </div>
+        </main>
+    </div>
+
+    <!-- Application Logic -->
+    <script>
+        function appData() {
+            return {
+                planData: planData, // Loaded from data.js
+                currentWeekIndex: 0,
+                checklists: {},
+
+                get currentWeek() {
+                    return this.planData[this.currentWeekIndex];
+                },
+
+                initApp() {
+                    // Load saved checklists from localStorage
+                    const saved = localStorage.getItem('parroquia_checklists');
+                    if (saved) {
+                        this.checklists = JSON.parse(saved);
+                    } else {
+                        this.initEmptyChecklists();
+                    }
+                },
+
+                initEmptyChecklists() {
+                    this.planData.forEach(week => {
+                        week.redes.forEach(red => {
+                            ['Guion Revisado', 'Imagen/Video Creado', 'Audio Grabado', 'Programado en Metricool'].forEach(task => {
+                                this.checklists[week.semana + '_' + red.nombre + '_' + task] = false;
+                            });
+                        });
+                    });
+                },
+
+                selectWeek(index) {
+                    this.currentWeekIndex = index;
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                },
+
+                saveChecklists() {
+                    localStorage.setItem('parroquia_checklists', JSON.stringify(this.checklists));
+                },
+
+                getWeekProgress(weekIndex) {
+                    const week = this.planData[weekIndex];
+                    let totalTasks = 0;
+                    let completedTasks = 0;
+
+                    week.redes.forEach(red => {
+                        ['Guion Revisado', 'Imagen/Video Creado', 'Audio Grabado', 'Programado en Metricool'].forEach(task => {
+                            totalTasks++;
+                            if (this.checklists[week.semana + '_' + red.nombre + '_' + task]) {
+                                completedTasks++;
+                            }
+                        });
+                    });
+
+                    if (totalTasks === 0) return 0;
+                    return Math.round((completedTasks / totalTasks) * 100);
+                },
+
+                clearProgress() {
+                    if(confirm("¿Estás seguro de reiniciar todo el progreso?")) {
+                        this.checklists = {};
+                        this.initEmptyChecklists();
+                        this.saveChecklists();
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
