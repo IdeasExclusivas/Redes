@@ -42,21 +42,32 @@
         
         <!-- Sidebar: Week Selector -->
         <aside class="w-full md:w-64 shrink-0">
-            <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-4 sticky top-6">
-                <h2 class="font-bold text-lg mb-4 text-indigo-900 border-b pb-2">Mes de Enero</h2>
-                <div class="space-y-2">
-                    <template x-for="(week, index) in planData" :key="index">
-                        <button 
-                            @click="selectWeek(index)"
-                            :class="currentWeekIndex === index ? 'bg-indigo-50 border-indigo-200 text-indigo-700 font-semibold' : 'hover:bg-slate-50 border-transparent text-slate-600'"
-                            class="w-full text-left px-4 py-3 rounded-lg border transition-colors duration-150 flex items-center justify-between">
-                            <span>Semana <span x-text="week.semana"></span></span>
-                            <!-- Progress indicator bubble -->
-                            <span class="text-xs py-0.5 px-2 rounded-full" 
-                                  :class="getWeekProgress(index) === 100 ? 'bg-green-100 text-green-700' : 'bg-slate-100 text-slate-500'"
-                                  x-text="getWeekProgress(index) + '%'">
-                            </span>
-                        </button>
+            <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-4 sticky top-6 max-h-[90vh] overflow-y-auto">
+                <h2 class="font-bold text-lg mb-4 text-indigo-900 border-b pb-2">Calendario 2027</h2>
+                <div class="space-y-3">
+                    <template x-for="mes in mesesList" :key="mes">
+                        <div class="border border-slate-200 rounded-lg overflow-hidden shadow-sm" x-show="getWeeksForMonth(mes).length > 0">
+                            <!-- Botón del Mes -->
+                            <button @click="toggleMes(mes)" class="w-full bg-slate-50 px-4 py-3 font-bold text-slate-700 flex justify-between items-center hover:bg-slate-100 transition-colors">
+                                <span x-text="mes"></span>
+                                <svg :class="mesesAbiertos[mes] ? 'rotate-180' : ''" class="w-4 h-4 transition-transform text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </button>
+                            <!-- Lista de Semanas (Colapsable) -->
+                            <div x-show="mesesAbiertos[mes]" class="bg-white p-2 space-y-1 border-t border-slate-100">
+                                <template x-for="week in getWeeksForMonth(mes)" :key="week.semana">
+                                    <button @click="selectWeek(week.originalIndex)" 
+                                        :class="currentWeekIndex === week.originalIndex ? 'bg-indigo-50 border-indigo-200 text-indigo-700 font-semibold' : 'hover:bg-slate-50 border-transparent text-slate-600'"
+                                        class="w-full text-left px-3 py-2 rounded-md border transition-colors flex items-center justify-between text-sm">
+                                        <span>Semana <span x-text="week.semana"></span></span>
+                                        <!-- Burbuja de progreso -->
+                                        <span class="text-[10px] py-0.5 px-1.5 rounded-full" 
+                                              :class="getWeekProgress(week.originalIndex) === 100 ? 'bg-green-100 text-green-700' : 'bg-slate-100 text-slate-500'"
+                                              x-text="getWeekProgress(week.originalIndex) + '%'">
+                                        </span>
+                                    </button>
+                                </template>
+                            </div>
+                        </div>
                     </template>
                 </div>
             </div>
@@ -152,6 +163,10 @@
                 currentWeekIndex: 0,
                 checklists: {},
                 savedTexts: {},
+                
+                // Nuevas variables para el acordeón
+                mesesList: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
+                mesesAbiertos: { "Enero": true },
 
                 get currentWeek() {
                     return this.planData[this.currentWeekIndex];
@@ -186,6 +201,16 @@
                 selectWeek(index) {
                     this.currentWeekIndex = index;
                     window.scrollTo({ top: 0, behavior: 'smooth' });
+                },
+
+                toggleMes(mes) {
+                    this.mesesAbiertos[mes] = !this.mesesAbiertos[mes];
+                },
+
+                getWeeksForMonth(mes) {
+                    return this.planData.map((w, index) => {
+                        return { ...w, originalIndex: index };
+                    }).filter(w => w.mes === mes);
                 },
 
                 saveChecklists() {
