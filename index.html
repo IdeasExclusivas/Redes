@@ -305,7 +305,7 @@
 
                 saveToCloud() {
                     this.cloudSyncing = true;
-                    db.collection("redes_data").doc("estado_actual").set({
+                    return db.collection("redes_data").doc("estado_actual").set({
                         checklists: Alpine.raw(this.checklists),
                         savedTexts: Alpine.raw(this.savedTexts)
                     }).then(() => {
@@ -334,14 +334,14 @@
                     return Math.round((completedTasks / totalTasks) * 100);
                 },
 
-                clearProgress() {
+                async clearProgress() {
                     if(confirm("¿Estás seguro de reiniciar TODO el progreso y textos a su estado original?")) {
                         this.checklists = {};
                         this.savedTexts = {};
                         this.initEmptyChecklists();
                         localStorage.removeItem('parroquia_texts');
                         localStorage.removeItem('parroquia_checklists');
-                        this.saveToCloud();
+                        await this.saveToCloud();
                         alert("Progreso reiniciado. Recargando...");
                         location.reload();
                     }
@@ -368,17 +368,16 @@
                     if (!file) return;
 
                     const reader = new FileReader();
-                    reader.onload = (e) => {
+                    reader.onload = async (e) => {
                         try {
                             const data = JSON.parse(e.target.result);
                             if (data.checklists) {
                                 this.checklists = data.checklists;
-                                this.saveChecklists();
                             }
                             if (data.savedTexts) {
                                 this.savedTexts = data.savedTexts;
-                                localStorage.setItem('parroquia_texts', JSON.stringify(this.savedTexts));
                             }
+                            await this.saveToCloud();
                             alert("¡Copia restaurada con éxito! La página se actualizará.");
                             location.reload();
                         } catch (error) {
