@@ -130,7 +130,7 @@
                         <div class="bg-slate-50 p-4 border-t border-slate-200">
                             <h4 class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">Checklist de Producción</h4>
                             <div class="space-y-2">
-                                <template x-for="task in ['Guion Revisado', 'Imagen/Video Creado', 'Audio Grabado', 'Programado en Metricool']">
+                                <template x-for="task in getTasksForNetwork(red.nombre)">
                                     <label class="flex items-center gap-3 cursor-pointer group">
                                         <div class="relative flex items-center justify-center">
                                             <input type="checkbox" class="checkbox-custom opacity-0 absolute h-5 w-5 cursor-pointer" 
@@ -191,7 +191,7 @@
                 initEmptyChecklists() {
                     this.planData.forEach(week => {
                         week.redes.forEach(red => {
-                            ['Guion Revisado', 'Imagen/Video Creado', 'Audio Grabado', 'Programado en Metricool'].forEach(task => {
+                            this.getTasksForNetwork(red.nombre).forEach(task => {
                                 this.checklists[week.semana + '_' + red.nombre + '_' + task] = false;
                             });
                         });
@@ -211,6 +211,21 @@
                     return this.planData.map((w, index) => {
                         return { ...w, originalIndex: index };
                     }).filter(w => w.mes === mes);
+                },
+
+                getTasksForNetwork(nombre) {
+                    switch(nombre) {
+                        case 'WhatsApp':
+                            return ['Mensaje 1 (Texto) Revisado', 'Mensaje 2 (Audio) Grabado', 'Mensaje 3 (Reto) Revisado', 'Enviado a la comunidad'];
+                        case 'Instagram':
+                            return ['Guion y Copy Revisados', 'Carrusel / Reel Creado', 'Publicado / Programado'];
+                        case 'TikTok':
+                            return ['Guion Revisado', 'Video Grabado', 'Video Editado', 'Publicado / Programado'];
+                        case 'Facebook':
+                            return ['Texto Revisado', 'Imagen de apoyo creada', 'Publicado / Programado'];
+                        default:
+                            return ['Guion Revisado', 'Material Creado', 'Publicado / Programado'];
+                    }
                 },
 
                 saveChecklists() {
@@ -235,7 +250,7 @@
                     let completedTasks = 0;
 
                     week.redes.forEach(red => {
-                        ['Guion Revisado', 'Imagen/Video Creado', 'Audio Grabado', 'Programado en Metricool'].forEach(task => {
+                        this.getTasksForNetwork(red.nombre).forEach(task => {
                             totalTasks++;
                             if (this.checklists[week.semana + '_' + red.nombre + '_' + task]) {
                                 completedTasks++;
